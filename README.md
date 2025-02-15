@@ -7,3 +7,4 @@
 	cd ..
 	java prjava02.Prjava02
 
+"# prjava02" 
