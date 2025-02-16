@@ -1,0 +1,30 @@
+1.
+  a)git branch branca00
+  b)git checkout branca00
+  c)git status
+5
+  git checkout main
+  git log main..branca00
+7
+  git checkout branca00
+10b
+  git merge branca00
+12
+  git push origin main
+14a
+  git push -u origin branca01
+
+6.- Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?
+-No puc veure l'última línia afegida perquè estic a la branca main, que no conté els canvis de branca00
+
+7.- Torna a la branca branca00. Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?.
+Sí, ara puc veure l'última línia afegida perquè estic a la branca branca00, on es va fer el commit amb aquesta modificació.
+
+12c)	Comprova que només s'ha actualitzat la branca main únicament. Per què?.
+
+-Només s'ha actualitzat la branca main perquè els canvis es van fer mentre estàvem a main
+
+14c)	A quants commits de distància (commit ahead) està de la branca main?
+
+-a 1
+
